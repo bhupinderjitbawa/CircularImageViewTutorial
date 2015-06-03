@@ -9,13 +9,13 @@ How to use:
 Wherever you use ImageView use CircularImageView, 
 
 xml like:
-<myxml>
-<com.yourpackagename.filepathpackage.CircularImageView
+<code>
+&lt;com.yourpackagename.filepathpackage.CircularImageView
 android: layout_width = "wrap_content"
 android: layout_height = "wrap_content"
 android: src = "@drawable/profile"
-android: id = "@id+/circular_image_view" />
-</myxml>
+android: id = "@id+/circular_image_view" /&gt;
+</code>
 
 In java class like:
 

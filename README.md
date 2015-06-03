@@ -14,12 +14,13 @@ xml like:
 android: layout_width = "wrap_content"
 android: layout_height = "wrap_content"
 android: src = "@drawable/profile"
-android: id = "@id+/circular_image_view" />;
+android: id = "@id+/circular_image_view" />
 ```
 
 In java class like:
 
-<!-- CircularImageView civProfile = (CircularImageView) findViewById(R.id.circular_image_view); -->
-
+```java
+CircularImageView civProfile = (CircularImageView) findViewById(R.id.circular_image_view);
+```
 
 Now you can use this like ImageView.
